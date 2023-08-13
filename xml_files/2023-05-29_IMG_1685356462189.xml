@@ -1,0 +1,45 @@
+<annotation>
+	<folder>All Images</folder>
+	<filename>2023-05-29_IMG_1685356462189.jpg</filename>
+	<path>C:\Users\Prakash Gautam\Desktop\Child_Growth_Monitor\result\2023-05-29_IMG_1685356462189.jpg</path>
+	<object>
+		<name>Child_height</name>
+		<confidence>0.75</confidence>
+		<bndbox>
+			<xmin>1203</xmin>
+			<ymin>1012</ymin>
+			<xmax>1662</xmax>
+			<ymax>3009</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Reference_object</name>
+		<confidence>0.5972</confidence>
+		<bndbox>
+			<xmin>1235</xmin>
+			<ymin>2803</ymin>
+			<xmax>1738</xmax>
+			<ymax>3059</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Child_face</name>
+		<confidence>0.549</confidence>
+		<bndbox>
+			<xmin>1287</xmin>
+			<ymin>1291</ymin>
+			<xmax>1529</xmax>
+			<ymax>1572</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Biceps</name>
+		<confidence>0.4785</confidence>
+		<bndbox>
+			<xmin>1137</xmin>
+			<ymin>1543</ymin>
+			<xmax>1234</xmax>
+			<ymax>1962</ymax>
+		</bndbox>
+	</object>
+</annotation>

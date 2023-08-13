@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Input</title>
+</head>
+<body>
+    <h1>Upload an Image</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <input type="submit" value="Upload">
+    </form>
+    <img src="{{ image_url }}" alt="Uploaded Image">
+
+    {% if dimensions_info %}
+    <h2>Detected Object Dimensions and Bounding Box Coordinates:</h2>
+    <p>Uploaded Image: {{ uploaded_image_name }}</p>
+    <ul>
+        {% for dimension in dimensions_info %}
+        <li>{{ dimension.name }}: {{ dimension.width }} x {{ dimension.height }} (xmin: {{ dimension.xmin }}, xmax: {{ dimension.xmax }}, ymin: {{ dimension.ymin }}, ymax: {{ dimension.ymax }})</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>
