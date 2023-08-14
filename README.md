@@ -1,6 +1,6 @@
 # Child Growth Monitor Project
 
-![Sample Bounding Box Image](image_box/first.jpg)
+![Sample Bounding Box Image](result_image_with_parrot_green_boxes.jpg)
 
 ## Description
 
